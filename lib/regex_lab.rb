@@ -16,5 +16,5 @@ text.match?(/^[A-Z].*\W$/)
 end
 
 def valid_phone_number?(phone)
-/\A(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}\z/
+#/\A(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}\z/
 end
